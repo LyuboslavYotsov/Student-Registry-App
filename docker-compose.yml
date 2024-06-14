@@ -3,6 +3,6 @@ services:
   app:
     image: helixs66/studentsappdops:latest
     ports:
-      - "3030:3030" # Map port 3030 on the host to port 3030 in the container
+      - "3033:3033" # Map port 3030 on the host to port 3030 in the container
     environment:
       - NODE_ENV=production
